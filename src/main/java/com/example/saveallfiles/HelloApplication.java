@@ -43,6 +43,7 @@ class Search extends Thread{
 
     private void searchcore(File file){
         try{
+            
         for(File fil : file.listFiles()) {
             if(fil.isDirectory()){
                 diractory++;
